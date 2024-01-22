@@ -8,9 +8,8 @@ from typing import List
 from pydantic import BaseModel
 
 
-import logging
-
-logging.basicConfig(filename="fastapi.log", level=logging.DEBUG)
+#import logging
+#logging.basicConfig(filename="fastapi.log", level=logging.DEBUG)
 
 
 app = FastAPI()
